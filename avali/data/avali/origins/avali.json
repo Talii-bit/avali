@@ -1,0 +1,21 @@
+{
+    "name": "Avali",
+    "description": "Small sentient raptor-like creatures whome rely on their packs to keep eachother sane, and their 2 pairs ears to make up for poor eyesight. If there are any bugs found, report them too §lScriptshatter#4993",
+    "icon":{
+        "item": "minecraft:recovery_compass"
+    },
+    "impact": 3,
+    "order": 0,
+    "powers":[
+        "avali:packs",
+        "avali:i_can_hear_u",
+        "avali:packs_non_avali",
+        "avali:recipes",
+        "avali:smaller",
+        "avali:heat_bar",
+        "avali:holy_shit_i_love_tunes",
+        "avali:night_vision",
+        "avali:glide"
+    ],
+    "unchoosable": false  
+}

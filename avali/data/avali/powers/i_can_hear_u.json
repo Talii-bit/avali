@@ -1,0 +1,40 @@
+{
+    "type": "origins:multiple",
+    "vibrate":{
+        "type": "eggolib:game_event_listener",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action":{
+                "type": "origins:grant_power",
+                "source": "*:i_can_hear_you_vibrate",
+                "power": "avali:glowing"
+            }
+        }
+    },
+    "glow":{
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:living"
+                },
+                {
+                    "type": "origins:power",
+                    "power": "avali:glowing"
+                }
+            ]
+        },
+        "condition":{
+            "type": "origins:power_active",
+            "power": "avali:i_can_hear_u_toggle_ears"
+        }
+    },
+    "toggle_ears":{
+        "type": "origins:toggle",
+        "key": "key.origins.secondary_active",
+        "active_by_default": true
+    },
+    "name":"Sensitive ears",
+    "description": "You can easally hear players that walk around you, allowing you to see them whereever you are as long as they are moving."
+}
