@@ -25,6 +25,11 @@
                 }
             ]
         },
+        "bientity_condition": {
+            "type": "origins:distance",
+            "comparison": "<=",
+            "compare_to": 30
+        },
         "condition":{
             "type": "origins:power_active",
             "power": "avali:i_can_hear_u_toggle_ears"
