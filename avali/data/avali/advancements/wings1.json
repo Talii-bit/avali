@@ -4,7 +4,17 @@
             "item": "minecraft:piston"
         },
         "title": "PistonWerks V4 2000 Arm Boosters: Avali edition",
-        "description": "With piston-powered arms, you can give yourself a nice boost into the air! Just remember to spread your wings once in the air...",
+        "description": {
+            "text": "With piston-powered arms, you can give yourself a nice boost into the air! Just remember to spread your wings once in the air... [Activate with Primary, which is currently bound to ",
+            "extra": [
+                {
+                    "keybind": "key.origins.primary_active"
+                },
+                {
+                    "text": "]"
+                }
+            ]
+        },
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false

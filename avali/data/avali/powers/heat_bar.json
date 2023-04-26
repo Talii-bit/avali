@@ -25,6 +25,21 @@
         "interval": 1,
         "burn_duration": 1
     },
+    "clear_bar":{
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "change": 0,
+            "operation": "set",
+            "resource":"*:*_resource"
+        },
+        "condition": {
+            "type": "origins:health",
+            "comparison": "<=",
+            "compare_to": 0
+        },
+        "cooldown": 1
+    },
     "name": "Overheat",
     "description": "Your blood is made of water and ammonia, and thus it overheats easally. Better get some cybernetic enhancements to fix that."
 }
