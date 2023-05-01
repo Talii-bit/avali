@@ -1,4 +1,4 @@
 {
     "condition": "apoli:power",
-    "origin": "avali:glowing"
+    "power": "avali:glowing"
 }

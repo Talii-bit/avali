@@ -1,39 +1,12 @@
 {
     "type": "origins:multiple",
-    "vibrate":{
-        "type": "eggolib:game_event_listener",
-        "bientity_action": {
-            "type": "origins:actor_action",
-            "action":{
-                "type": "origins:grant_power",
-                "source": "*:i_can_hear_you_vibrate",
-                "power": "avali:glowing"
-            }
-        }
-    },
-    "glow":{
-        "type": "origins:entity_glow",
-        "entity_condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:living"
-                },
-                {
-                    "type": "origins:power",
-                    "power": "avali:glowing"
-                }
-            ]
+    "set_score":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "apoli:execute_command",
+            "command": "execute store result score @s players_near_avali run execute if entity @e[distance=1..64, predicate=avali:can_be_heard]"
         },
-        "bientity_condition": {
-            "type": "origins:distance",
-            "comparison": "<=",
-            "compare_to": 30
-        },
-        "condition":{
-            "type": "origins:power_active",
-            "power": "avali:i_can_hear_u_toggle_ears"
-        }
+        "interval": 1
     },
     "toggle_ears":{
         "type": "origins:toggle",

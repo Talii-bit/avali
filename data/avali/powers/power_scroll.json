@@ -1,0 +1,286 @@
+{
+    "type": "origins:multiple",
+    "active":{
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "avali:give_abilitys/legs1"
+                    },
+                    "condition": {
+                        "type": "origins:or",
+                        "conditions": [
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings2"
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs1"
+                                    },
+                                    {
+                                        "type": "origins:power",
+                                        "power": "avali:cybernetics/ablitys/wings2"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings2",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs1"
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings1"
+                                    },
+                                    {
+                                        "type": "origins:power",
+                                        "power": "avali:cybernetics/ablitys/wings1"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings2",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs1"
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings1",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs2"
+                                    },
+                                    {
+                                        "type": "origins:power",
+                                        "power": "avali:cybernetics/ablitys/legs2"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings2",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs1"
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings1",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs2",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:power",
+                                        "power": "avali:cybernetics/ablitys/legs1",
+                                        "inverted": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+
+                {
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "avali:give_abilitys/legs2"
+                    },
+                    "condition": {
+                        "type": "origins:or",
+                        "conditions": [
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs1"
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs2"
+                                    },
+                                    {
+                                        "type": "origins:power",
+                                        "power": "avali:cybernetics/ablitys/legs1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+
+
+                {
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "avali:give_abilitys/wings1"
+                    },
+                    "condition": {
+                        "type": "origins:or",
+                        "conditions": [
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs2"
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings1"
+                                    },
+                                    {
+                                        "type": "origins:power",
+                                        "power": "avali:cybernetics/ablitys/legs2"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs2",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings1"
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs1"
+                                    },
+                                    {
+                                        "type": "origins:power",
+                                        "power": "avali:cybernetics/ablitys/legs1"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs2",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings1"
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs1",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings2"
+                                    },
+                                    {
+                                        "type": "origins:power",
+                                        "power": "avali:cybernetics/ablitys/wings2"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs2",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings1"
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:legs1",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings2",
+                                        "inverted": true
+                                    },
+                                    {
+                                        "type": "origins:power",
+                                        "power": "avali:cybernetics/ablitys/wings1",
+                                        "inverted": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+
+                {
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "avali:give_abilitys/wings2"
+                    },
+                    "condition": {
+                        "type": "origins:or",
+                        "conditions": [
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings1"
+                                    },
+                                    {
+                                        "type": "origins:advancement",
+                                        "advancement": "avali:wings2"
+                                    },
+                                    {
+                                        "type": "origins:power",
+                                        "power": "avali:cybernetics/ablitys/wings1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

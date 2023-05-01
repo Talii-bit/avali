@@ -2,7 +2,7 @@
     "type": "origins:multiple",
     "cooldown": {
         "type": "origins:cooldown",
-        "cooldown": 30,
+        "cooldown": 15,
         "hud_render": {
             "should_render": false
         }
@@ -40,10 +40,20 @@
     "activte_power": {
         "type": "origins:action_over_time",
         "condition": {
-            "type": "origins:resource",
-            "resource": "*:glowing_cooldown",
-            "comparison": "==",
-            "compare_to": 0
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:glowing_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:glowing_toggle",
+                    "inverted": true
+                }
+            ]
         },
         "interval": 1,
         "entity_action": {
@@ -54,10 +64,20 @@
     "activate_self_destruct": {
         "type": "origins:action_over_time",
         "condition": {
-            "type": "origins:resource",
-            "resource": "*:glowing_cooldown",
-            "comparison": ">=",
-            "compare_to": 1
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:glowing_toggle",
+                    "inverted": true
+                }
+            ]
         },
         "interval": 1,
         "entity_action": {

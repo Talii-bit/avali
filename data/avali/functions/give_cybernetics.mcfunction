@@ -6,6 +6,8 @@ execute if entity @s[advancements={avali:core1=true}] run scoreboard players add
 execute if entity @s[advancements={avali:core2=true}] run scoreboard players add @s cybernetics_amount 1
 execute if entity @s[advancements={avali:wings1=true}] run scoreboard players add @s cybernetics_amount 1
 execute if entity @s[advancements={avali:wings2=true}] run scoreboard players add @s cybernetics_amount 1
+execute if entity @s[advancements={avali:legs1=true}] run scoreboard players add @s cybernetics_amount 1
+execute if entity @s[advancements={avali:legs2=true}] run scoreboard players add @s cybernetics_amount 1
 
 
 ##Eyes
@@ -45,17 +47,6 @@ execute if entity @s[advancements={avali:core0=true}] run power grant @s origins
 execute if entity @s[advancements={avali:core2=true}] run power remove @s origins:carnivore
 
 
-##Wings
-
-# wings 1
-execute if entity @s[advancements={avali:wings1=false}] run power remove @s avali:cybernetics/tier1/wings
-execute if entity @s[advancements={avali:wings1=true}] run power grant @s avali:cybernetics/tier1/wings
-execute if entity @s[advancements={avali:wings2=true}] run power remove @s avali:cybernetics/tier1/wings
-
-# wings 2
-execute if entity @s[advancements={avali:wings2=true}] run power grant @s avali:cybernetics/tier2/wings
-
-
 ##Toomuch
 
 # uhoh 1
@@ -75,3 +66,15 @@ execute if score @s cybernetics_amount matches 6 run power grant @s avali:cybern
 execute unless score @s cybernetics_amount matches 6 run power remove @s avali:cybernetics/too_many/uhoh3
 execute if score @s cybernetics_amount matches 6.. run advancement grant @s only avali:uhoh3
 execute unless score @s cybernetics_amount matches 6.. run advancement revoke @s only avali:uhoh3
+
+# uhoh 4
+execute if score @s cybernetics_amount matches 7 run power grant @s avali:cybernetics/too_many/uhoh4
+execute unless score @s cybernetics_amount matches 7 run power remove @s avali:cybernetics/too_many/uhoh4
+execute if score @s cybernetics_amount matches 7.. run advancement grant @s only avali:uhoh4
+execute unless score @s cybernetics_amount matches 7.. run advancement revoke @s only avali:uhoh4
+
+# uhoh 5
+execute if score @s cybernetics_amount matches 8 run power grant @s avali:cybernetics/too_many/uhoh5
+execute unless score @s cybernetics_amount matches 8 run power remove @s avali:cybernetics/too_many/uhoh5
+execute if score @s cybernetics_amount matches 8.. run advancement grant @s only avali:uhoh5
+execute unless score @s cybernetics_amount matches 8.. run advancement revoke @s only avali:uhoh5

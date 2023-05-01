@@ -31,7 +31,7 @@
         "type": "origins:action_when_damage_taken",
         "entity_action": {
             "type": "origins:execute_command",
-            "command": "execute at @a[predicate=avali:is_avali] if score @s current_pack = @p current_pack run power grant @s avali:very_sad"
+            "command": "execute at @a[predicate=avali:is_avali, distance=1..] if score @s current_pack = @p current_pack run power grant @s avali:very_sad"
         },
         "condition": {
             "type": "origins:health",

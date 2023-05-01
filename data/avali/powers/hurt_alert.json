@@ -54,10 +54,20 @@
     "activate_self_destruct": {
         "type": "origins:action_over_time",
         "condition": {
-            "type": "origins:resource",
-            "resource": "*:hurt_alert_cooldown",
-            "comparison": ">=",
-            "compare_to": 1
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle",
+                    "inverted": true
+                }
+            ]
         },
         "interval": 1,
         "entity_action": {
