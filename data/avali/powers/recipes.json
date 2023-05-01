@@ -1,0 +1,178 @@
+{
+    "type": "origins:simple",
+    "badges": [
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Eye upgrade 1",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "id": "avali:eyes1",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "$%$",
+                    "%^%",
+                    "$%$"
+                ],
+                "key": {
+                    "$":{
+                        "item": "minecraft:torch"
+                    },
+                    "%":{
+                        "item": "minecraft:copper_ingot"
+                    },
+                    "^":{
+                        "item": "minecraft:spyglass"
+                    }
+                },
+                "result":{
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        },
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Eye upgrade 2",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "id": "avali:eyes2",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "$%$",
+                    "%^%",
+                    "$%$"
+                ],
+                "key": {
+                    "$":{
+                        "item": "minecraft:glowstone"
+                    },
+                    "%":{
+                        "item": "minecraft:gold_ingot"
+                    },
+                    "^":{
+                        "item": "minecraft:ender_eye"
+                    }
+                },
+                "result":{
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        },
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Core upgrade 1",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "id": "avali:core1",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "$%$",
+                    "%^%",
+                    "$%$"
+                ],
+                "key": {
+                    "$":{
+                        "item": "minecraft:snowball"
+                    },
+                    "%":{
+                        "item": "minecraft:copper_ingot"
+                    },
+                    "^":{
+                        "item": "minecraft:powder_snow_bucket"
+                    }
+                },
+                "result":{
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        },
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Core upgrade 2",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "id": "avali:core2",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "$%$",
+                    "%^%",
+                    "$%$"
+                ],
+                "key": {
+                    "$":{
+                        "item": "minecraft:blue_ice"
+                    },
+                    "%":{
+                        "item": "minecraft:echo_shard"
+                    },
+                    "^":{
+                        "item": "minecraft:netherite_ingot"
+                    }
+                },
+                "result":{
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        },
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Arms upgrade 1",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "id": "avali:wings1",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "# #",
+                    "$ $",
+                    "% %"
+                ],
+                "key": {
+                    "#":{
+                        "item": "minecraft:redstone_torch"
+                    },
+                    "$":{
+                        "item": "minecraft:piston"
+                    },
+                    "%":{
+                        "item": "minecraft:slime_block"
+                    }
+                },
+                "result":{
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        },
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Arms upgrade 2",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "id": "avali:wings2",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "# #",
+                    "$&$",
+                    "% %"
+                ],
+                "key": {
+                    "#":{
+                        "item": "minecraft:lightning_rod"
+                    },
+                    "$":{
+                        "item": "minecraft:echo_shard"
+                    },
+                    "%":{
+                        "item": "minecraft:tnt"
+                    },
+                    "&":{
+                        "item": "minecraft:honey_block"
+                    }
+                },
+                "result":{
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        }
+    ],
+    "name": "Cybernetics",
+    "description": "Create Cybernetics to enhance yourself, and overcome your shortcomings! But, if you go above 3, there may be some... unintended side effects."
+}

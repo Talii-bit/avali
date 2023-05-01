@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "$&$",
+        "% %"
+    ],
+    "key": {
+        "#":{
+            "item": "minecraft:lightning_rod"
+        },
+        "$":{
+            "item": "minecraft:echo_shard"
+        },
+        "%":{
+            "item": "minecraft:tnt"
+        },
+        "&":{
+            "item": "minecraft:honey_block"
+        }
+    },
+    "result":{
+        "item": "minecraft:knowledge_book"
+    }
+}
