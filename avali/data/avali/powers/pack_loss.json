@@ -4,17 +4,17 @@
         {
             "attribute": "minecraft:generic.max_health",
             "operation": "multiply_total",
-            "value": -0.1
+            "value": -0.3
         },
         {
             "attribute": "minecraft:generic.attack_damage",
             "operation":"multiply_total",
-            "value": -0.1
+            "value": -0.3
         },
         {
             "attribute": "minecraft:generic.movement_speed",
             "operation":"multiply_total",
-            "value": -0.1
+            "value": -0.3
         }
     ]
 }

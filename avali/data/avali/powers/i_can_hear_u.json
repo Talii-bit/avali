@@ -38,8 +38,8 @@
     "toggle_ears":{
         "type": "origins:toggle",
         "key": "key.origins.secondary_active",
-        "active_by_default": true
+        "active_by_default": false
     },
     "name":"Sensitive ears",
-    "description": "You can easally hear players that walk around you, allowing you to see them whereever you are as long as they are moving."
+    "description": "If you focus, you can hear players that walk around you, allowing you to see them wherever you are as long as they are moving."
 }
