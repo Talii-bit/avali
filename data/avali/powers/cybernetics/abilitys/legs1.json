@@ -10,7 +10,7 @@
     },
     "ability":{
         "type": "origins:launch",
-        "cooldown": 600,
+        "cooldown": 1,
         "hud_render": {
             "bar_index": 4
         },

@@ -1,19 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:elytra"
+            "item": "minecraft:lightning_rod"
         },
-        "title": "Stickems 20V 2000 SuperLauncher: Avali edition (We are not responsible for death, severe injury, or customer dissatisfaction. Suck our collective cocks.)",
+        "title": "WrilyStud Incorperated V3 Lasor Arm armstrong modification",
         "description": {
-            "text": "With honey and lightning rods, you've managed to make the best you can with your resources! Now, you can go even higher! [Activate with Primary, which is currently bound to ",
-            "extra": [
-                {
-                    "keybind": "key.origins.primary_active"
-                },
-                {
-                    "text": "]"
-                }
-            ]
+            "text": "New laser technology out! Get yours today and shoot EVERYTHING with dope-ass lasers!"
         },
         "frame": "challenge",
         "show_toast": true,
