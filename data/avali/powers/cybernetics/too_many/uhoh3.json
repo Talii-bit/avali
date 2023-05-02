@@ -52,6 +52,12 @@
             "type": "origins:and",
             "actions": [
                 {
+                    "type": "origins:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource":"*:*_resource"
+                },
+                {
                     "type": "origins:explode",
                     "power": 10
                 },
@@ -63,12 +69,6 @@
                         "bypasses_armor": true,
                         "out_of_world": true
                     }
-                },
-                {
-                    "type": "origins:change_resource",
-                    "change": 0,
-                    "operation": "set",
-                    "resource":"*:*_resource"
                 }
             ]
         }

@@ -1,9 +1,58 @@
 {
     "type": "origins:multiple",
     "resource":{
-
+        "type": "origins:resource",
+        "max": 6000,
+        "min": 0,
+        "hud_render": {
+            "inverted": true,
+            "condition": {
+                "type": "origins:resource",
+                "resource":"*:*_resource",
+                "compare_to": 0,
+                "comparison": "!="
+            },
+            "should_render": true
+        },
+        "max_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:power_active",
+                "power": "*:*_toggle_mode",
+                "inverted": true
+            },
+            "if_action": {
+                "type": "origins:toggle",
+                "power": "*:*_toggle_mode"
+            }
+        },
+        "min_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:power_active",
+                "power": "*:*_toggle_mode"
+            },
+            "if_action": {
+                "type": "origins:toggle",
+                "power": "*:*_toggle_mode"
+            }
+        }
     },
     "cooldown":{
-        
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource":"*:*_resource",
+            "change": -10,
+            "operation": "add"
+        },
+        "interval": 10
+    },
+    "toggle_mode":{
+        "type": "origins:toggle",
+        "key":{
+            "key": "FSDFSGDERGDFBVFDV"
+        },
+        "active_by_default": false
     }
 }

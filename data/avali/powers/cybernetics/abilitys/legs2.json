@@ -52,7 +52,7 @@
     },
     "activate":{
         "type": "origins:active_self",
-        "cooldown": 6000,
+        "cooldown": 1,
         "entity_action": {
             "type": "origins:and",
             "actions": [
@@ -71,12 +71,23 @@
                 {
                     "type": "origins:execute_command",
                     "command": "power grant @s avali:cybernetics/abilitys/spectator_basically"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource":"avali:overload_resource",
+                    "change": 3600,
+                    "operation": "add"
                 }
             ]
         },
         "hud_render": {
             "should_render": false
         }
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "avali:overload_toggle_mode",
+        "inverted": true
     },
     "on_remove":{
         "type": "apoli:action_on_callback",

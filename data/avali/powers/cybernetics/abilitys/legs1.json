@@ -14,11 +14,31 @@
         "hud_render": {
             "bar_index": 4
         },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "avali:overload_toggle_mode",
+            "inverted": true
+        },
         "sound": "minecraft:block.piston.extend",
         "speed": 2,
         "key": {
             "key": "key.origins.primary_active",
             "continuous": true
+        }
+    },
+    "active_self":{
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "avali:overload_toggle_mode",
+            "inverted": true
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource":"avali:overload_resource",
+            "change": 600,
+            "operation": "add"
         }
     }
 }

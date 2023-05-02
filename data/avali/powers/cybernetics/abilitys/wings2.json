@@ -11,19 +11,35 @@
     "blaster":{
         "type": "origins:active_self",
         "entity_action": {
-            "type": "origins:raycast",
-            "command_along_ray": "particle minecraft:block blue_concrete ~ ~ ~ 0 0 0 0 5",
-            "bientity_action": {
-                "type": "origins:damage",
-                "amount": 4,
-                "source": {
-                    "name": "onFire.player",
-                    "bypasses_armor": true,
-                    "unblockable": true,
-                    "magic": true
-                }
+            "condition": {
+                "type": "origins:power_active",
+                "power": "avali:overload_toggle_mode",
+                "inverted": true
             },
-            "distance": 16
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:raycast",
+                    "command_along_ray": "particle minecraft:block blue_concrete ~ ~ ~ 0 0 0 0 5",
+                    "bientity_action": {
+                        "type": "origins:damage",
+                        "amount": 4,
+                        "source": {
+                            "name": "onFire.player",
+                            "bypasses_armor": true,
+                            "unblockable": true,
+                            "magic": true
+                        }
+                    },
+                    "distance": 16
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource":"avali:overload_resource",
+                    "change": 1200,
+                    "operation": "add"
+                }
+            ]
         }
     }
 }
