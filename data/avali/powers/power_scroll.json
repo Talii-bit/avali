@@ -1,5 +1,7 @@
 {
     "type": "origins:multiple",
+    "name": "Cybernetic Select",
+    "description": "Press secondary to switch between your cybernetic abilitys!",
     "active":{
         "key": {
             "key": "key.origins.secondary_active"

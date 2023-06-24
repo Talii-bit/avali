@@ -52,12 +52,6 @@
                     "command": "execute if entity @s[nbt={OnGround:true}]",
                     "comparison": "==",
                     "compare_to": 1
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "avali:overload_resource",
-                    "compare_to": 5400,
-                    "comparison": "<"
                 }
             ]
         },

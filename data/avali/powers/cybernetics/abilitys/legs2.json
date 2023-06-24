@@ -87,12 +87,6 @@
                     "type": "origins:power_active",
                     "power": "avali:overload_toggle_mode",
                     "inverted": true
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "avali:overload_resource",
-                    "compare_to": 2400,
-                    "comparison": "<"
                 }
             ]
         },
