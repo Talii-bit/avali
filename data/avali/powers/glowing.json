@@ -84,5 +84,6 @@
             "type": "origins:toggle",
             "power": "*:glowing_toggle"
         }
-    }
+    },
+    "badges": []
 }
