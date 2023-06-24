@@ -180,6 +180,17 @@
   <dd>
     <p>They're not the best, but they get the job done.</p>
     <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e1/Ntsc.png/revision/latest/scale-to-width-down/475?cb=20130920101546" alt="ntsc">
+    <p>
+      Immune to:
+    <ul>
+      <li>
+        Blindness
+      </li>
+      <li>
+        Darkness
+      </li>
+    </ul>
+    </p>
   </dd>
   <dt>
     <h4>Wargone 9100 8V Anti-Darkness optical implants</h4>
@@ -198,7 +209,7 @@
         Darkness
       </li>
     </ul>
-  </p>
+    </p>
   </dd>
   </dl>
   <h3> Core Enhancements</h3>
