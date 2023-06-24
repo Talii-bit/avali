@@ -49,7 +49,7 @@
       Sensitive ears
     </dt>
     <dd>
-      You can easally hear players that move around you, allowing you to see them wherever you are as long as they are moving. This is toggleable!
+      You can easily hear players that move around you! And, you can differentiate from the amount of players that are there! (Allows you to know the exact amount of players that are moving near you)
     </dd>
     <dt>
       Sensitive eyes
@@ -255,18 +255,32 @@
     Average Avali arms. Basic gliding is all these things allow, but cybernetics could make them better...
   </dd>
   <dt>
-    <h4>PistonWerks V4 2000 Arm Boosters: Avali edition</h4>
-    <img src="https://i.imgur.com/FS2fZrn.png" alt="arms1craft">
+    <h4>Vandelay productions Armstrong arm: Garbage collection edition</h4>
+    <img src="https://i.imgur.com/ydPETgI.png" alt="arms1craft">
   </dt>
   <dd>
-    With piston-powered arms, you can give yourself a nice boost into the air! Just remember to spread your arms once in the air... [Active ability]
+    You can collect items in a 32 block radius [Active ability]
   </dd>
   <dt>
-    <h4>Stickems 20V 2000 SuperLauncher: Avali edition</h4>
-    <img src="https://i.imgur.com/uooBlzi.png" alt="arms2craft">
+    <h4>WrilyStud Incorperated V3 Lasor Arm armstrong modification</h4>
+    <img src="https://i.imgur.com/kcFhDsd.png" alt="arms2craft">
   </dt>
   <dd>
-    With honey and lightning rods, you've managed to make the best you can with your resources! Now, you can go even higher! [Active ability]
+    You can shoot a laser blast from your arm. [Active ability]
+  </dd>
+  <dt>
+    <h4>Leg-up V2 3000HP Upanatem</h4>
+    <img src="https://i.imgur.com/FS2fZrn.png" alt="arms2craft">
+  </dt>
+  <dd>
+    You now have a jump boost that can launch you up into the air. [Active ability]
+  </dd>
+  <dt>
+    <h4>Reality-warpers Tele-blink legs</h4>
+    <img src="https://i.imgur.com/XOecVUz.png" alt="arms2craft">
+  </dt>
+  <dd>
+    Allows you to teleport anywhere within a certain radius. (by basically putting you in spectator for a short while.) [Active ability]
   </dd>
   </dl>
   <h2>Overload</h2>
@@ -289,5 +303,17 @@
   </dt>
   <dd>
     Seems like your cybernetics are now in danger of overheating... unrelated note, did you know they used to put water in cars as coolent. (Drink potions and water bottles to cool your cybernetics off. They do not cool off in cool biomes.)
+  </dd>
+  <dt>
+    ERR ERR ERR (7 Cybernetics)
+  </dt>
+  <dd>
+    What the actual f*ck is wrong with you. Unless you're on easy, you literally cant step in water now and you overheat increadibly easally
+  </dd>
+  <dt>
+    ERR_EFFICENCY_10% (8 Cybernetics)
+  </dt>
+  <dd>
+    Your hunger drains at an obsene rate now, you overheat stupidly easy, and water hurts even more. I dont know what to say, why would you do this.
   </dd>
   </dl>
