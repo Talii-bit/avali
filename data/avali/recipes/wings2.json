@@ -7,7 +7,7 @@
     ],
     "key": {
         "#":{
-            "item": "minecraft:lightning_rod"
+            "item": "minecraft:crossbow"
         },
         "$":{
             "item": "minecraft:echo_shard"
@@ -16,7 +16,7 @@
             "item": "minecraft:tnt"
         },
         "&":{
-            "item": "minecraft:honey_block"
+            "item": "minecraft:fire_charge"
         }
     },
     "result":{

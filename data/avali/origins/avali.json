@@ -1,6 +1,6 @@
 {
     "name": "Avali",
-    "description": "Please note that Avalis where originaly made by RyuujinZERO, I just made an origin based off them. Small sentient raptor-like creatures whome rely on their packs to keep eachother sane, and their 2 pairs ears to make up for poor eyesight. If there are any bugs found, report them too §lScriptshatter#4993",
+    "description": "Please note that Avalis where originaly made by RyuujinZERO, I just made an origin based off them. Small sentient raptor-like creatures whome rely on their packs to keep eachother sane, and their 2 pairs ears to make up for poor eyesight. Create Cybernetics to enhance yourself, and overcome your shortcomings! But, if you go above 3, there may be some... unintended side effects. If there are any bugs found, report them too §lScriptshatter §r on discord. I also take comms if interested.",
     "icon":{
         "item": "minecraft:recovery_compass"
     },
@@ -10,13 +10,17 @@
         "avali:packs",
         "avali:i_can_hear_u",
         "avali:packs_non_avali",
-        "avali:recipes",
         "avali:smaller",
         "avali:heat_bar",
         "avali:holy_shit_i_love_tunes",
         "avali:night_vision",
         "avali:glide",
-        "avali:power_scroll"
+        "avali:power_scroll",
+        "avali:overload",
+        "avali:recipes",
+        "avali:legs",
+        "avali:corer",
+        "avali:wings"
     ],
     "unchoosable": false  
 }

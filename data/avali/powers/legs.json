@@ -3,25 +3,25 @@
     "badges": [
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Eye upgrade 1",
+            "suffix": "Legs upgrade 1",
             "sprite": "origins:textures/gui/badge/info.png",
             "recipe": {
                 "id": "avali:eyes1",
                 "type": "minecraft:crafting_shaped",
                 "pattern": [
-                    "$%$",
-                    "%^%",
-                    "$%$"
+                    "# #",
+                    "$ $",
+                    "% %"
                 ],
                 "key": {
+                    "#":{
+                        "item": "minecraft:redstone_torch"
+                    },
                     "$":{
-                        "item": "minecraft:torch"
+                        "item": "minecraft:piston"
                     },
                     "%":{
-                        "item": "minecraft:copper_ingot"
-                    },
-                    "^":{
-                        "item": "minecraft:spyglass"
+                        "item": "minecraft:slime_block"
                     }
                 },
                 "result":{
@@ -31,25 +31,25 @@
         },
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Eye upgrade 2",
+            "suffix": "Legs upgrade 2",
             "sprite": "origins:textures/gui/badge/info.png",
             "recipe": {
                 "id": "avali:eyes2",
                 "type": "minecraft:crafting_shaped",
                 "pattern": [
-                    "$%$",
-                    "%^%",
-                    "$%$"
+                    "# #",
+                    "$ $",
+                    "% %"
                 ],
                 "key": {
+                    "#":{
+                        "item": "minecraft:phantom_membrane"
+                    },
                     "$":{
-                        "item": "minecraft:glowstone"
+                        "item": "minecraft:echo_shard"
                     },
                     "%":{
-                        "item": "minecraft:gold_ingot"
-                    },
-                    "^":{
-                        "item": "minecraft:ender_eye"
+                        "item": "minecraft:ender_pearl"
                     }
                 },
                 "result":{
@@ -58,6 +58,6 @@
             }
         }
     ],
-    "name": "Ocular Cybernetics",
-    "description": "Ocular cybertics can be made to overcome your short sight!"
+    "name": "Leg Cybernetics",
+    "description": "Upgrade your legs to increase your mobility!"
 }

@@ -3,7 +3,7 @@
     "badges": [
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Eye upgrade 1",
+            "suffix": "Core upgrade 1",
             "sprite": "origins:textures/gui/badge/info.png",
             "recipe": {
                 "id": "avali:eyes1",
@@ -15,13 +15,13 @@
                 ],
                 "key": {
                     "$":{
-                        "item": "minecraft:torch"
+                        "item": "minecraft:snowball"
                     },
                     "%":{
                         "item": "minecraft:copper_ingot"
                     },
                     "^":{
-                        "item": "minecraft:spyglass"
+                        "item": "minecraft:powder_snow_bucket"
                     }
                 },
                 "result":{
@@ -31,7 +31,7 @@
         },
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Eye upgrade 2",
+            "suffix": "Core upgrade 2",
             "sprite": "origins:textures/gui/badge/info.png",
             "recipe": {
                 "id": "avali:eyes2",
@@ -43,13 +43,13 @@
                 ],
                 "key": {
                     "$":{
-                        "item": "minecraft:glowstone"
+                        "item": "minecraft:blue_ice"
                     },
                     "%":{
-                        "item": "minecraft:gold_ingot"
+                        "item": "minecraft:echo_shard"
                     },
                     "^":{
-                        "item": "minecraft:ender_eye"
+                        "item": "minecraft:netherite_ingot"
                     }
                 },
                 "result":{
@@ -58,6 +58,6 @@
             }
         }
     ],
-    "name": "Ocular Cybernetics",
-    "description": "Ocular cybertics can be made to overcome your short sight!"
+    "name": "Core Cybernetics",
+    "description": "Enhance your heart and core to allow you to resist areas of increased heat."
 }

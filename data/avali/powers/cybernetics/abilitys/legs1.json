@@ -15,24 +15,51 @@
             "bar_index": 4
         },
         "condition": {
-            "type": "origins:power_active",
-            "power": "avali:overload_toggle_mode",
-            "inverted": true
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "avali:overload_toggle_mode",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:command",
+                    "command": "execute if entity @s[nbt={OnGround:true}]",
+                    "comparison": "==",
+                    "compare_to": 1
+                }
+            ]
         },
         "sound": "minecraft:block.piston.extend",
         "speed": 2,
         "key": {
-            "key": "key.origins.primary_active",
-            "continuous": true
+            "key": "key.origins.primary_active"
         }
     },
     "active_self":{
         "type": "origins:active_self",
         "cooldown": 1,
         "condition": {
-            "type": "origins:power_active",
-            "power": "avali:overload_toggle_mode",
-            "inverted": true
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "avali:overload_toggle_mode",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:command",
+                    "command": "execute if entity @s[nbt={OnGround:true}]",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "avali:overload_resource",
+                    "compare_to": 5400,
+                    "comparison": "<"
+                }
+            ]
         },
         "entity_action": {
             "type": "origins:change_resource",

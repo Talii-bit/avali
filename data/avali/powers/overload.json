@@ -5,7 +5,6 @@
         "max": 6000,
         "min": 0,
         "hud_render": {
-            "inverted": true,
             "condition": {
                 "type": "origins:resource",
                 "resource":"*:*_resource",

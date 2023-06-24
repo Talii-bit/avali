@@ -10,10 +10,10 @@
             "item": "minecraft:redstone_torch"
         },
         "$":{
-            "item": "minecraft:piston"
+            "item": "minecraft:lightning_rod"
         },
         "%":{
-            "item": "minecraft:slime_block"
+            "item": "minecraft:hopper"
         }
     },
     "result":{

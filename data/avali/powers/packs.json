@@ -83,6 +83,7 @@
     "spawnbiome":{
         "type": "origins:modify_player_spawn",
         "biome": "minecraft:snowy_taiga",
+        "dimension_distance_multiplier": 1,
         "dimension": "minecraft:overworld"
     },
     "name": "Packs",
