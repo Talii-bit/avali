@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glass"
+        },
+        "title": "Illuminate Optical Implants",
+        "description": "Perfect vision",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "avali:fuckin_hell/root",
+    "criteria": {
+        "reqirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "avali:eyes3"
+            }
+        }
+    },
+    "rewards": {
+        "function": "avali:clear_book"
+    }
+}

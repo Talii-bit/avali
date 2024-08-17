@@ -24,6 +24,12 @@ execute if entity @s[advancements={avali:eyes2=true}] run power remove @s avali:
 # eyes 2
 execute if entity @s[advancements={avali:eyes2=false}] run power remove @s avali:cybernetics/tier2/eyes
 execute if entity @s[advancements={avali:eyes2=true}] run power grant @s avali:cybernetics/tier2/eyes
+execute if entity @s[advancements={avali:eyes3=true}] run power remove @s avali:cybernetics/tier2/eyes
+
+
+# eyes 3
+execute if entity @s[advancements={avali:eyes3=false}] run power remove @s avali:cybernetics/tier3/eyes
+execute if entity @s[advancements={avali:eyes3=true}] run power grant @s avali:cybernetics/tier3/eyes
 
 
 ##Core

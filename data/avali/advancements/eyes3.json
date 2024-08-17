@@ -1,15 +1,15 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:music_disc_5"
+            "item": "minecraft:glass"
         },
-        "title": "Wargone 9100 8V Anti-Darkness optical implants",
-        "description": "Top of the notch sight, doesn't get any better than this! <- lie",
+        "title": "Illuminate Optical Implants",
+        "description": "Perfect vision",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "avali:eyes1",
+    "parent": "avali:eyes2",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:impossible"

@@ -3,6 +3,7 @@ execute if predicate avali:is_avali run function avali:avali_spit
 clear @s minecraft:knowledge_book
 recipe take @s avali:eyes1
 recipe take @s avali:eyes2
+recipe take @s avali:eyes3
 recipe take @s avali:core1
 recipe take @s avali:core2
 recipe take @s avali:wings1
