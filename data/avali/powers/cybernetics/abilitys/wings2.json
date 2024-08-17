@@ -28,7 +28,7 @@
                     "command_along_ray": "particle minecraft:block blue_concrete ~ ~ ~ 0 0 0 0 5",
                     "bientity_action": {
                         "type": "origins:damage",
-                        "amount": 4,
+                        "amount": 8,
                         "source": {
                             "name": "onFire.player",
                             "bypasses_armor": true,
@@ -36,7 +36,7 @@
                             "magic": true
                         }
                     },
-                    "distance": 16
+                    "distance": 32
                 },
                 {
                     "type": "origins:change_resource",
