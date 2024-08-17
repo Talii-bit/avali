@@ -4,5 +4,5 @@
         "type": "apoli:execute_command",
         "command": "title @s actionbar {\"text\":\"Moving players near: \",\"extra\":[{\"score\":{\"name\":\"@s\",\"objective\":\"players_near_avali\"}},{\"text\":\", Current ability is [NONE]\"}]}"
     },
-    "interval": 1
+    "interval": 40
 }

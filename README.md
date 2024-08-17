@@ -294,37 +294,4 @@
     Allows you to teleport anywhere within a certain radius. (by basically putting you in spectator for a short while.) [Active ability]
   </dd>
   </dl>
-  <h2>Overload</h2>
-<p>There can always be too much of a good thing, and the same thing can be said for Cybernetics. Get too many, and they'll start to put a strain on your body. Be carful. Keep in mind upgrading everything results in 6 total cybernetics. Keep in mind that, unlike cybernetics, these do stack, and they get more powerful the more cybernetics you have.</p>
-<dl>
-  <dt>
-    SYSWARN: ENERGY_LOW (4 Cybernetics)
-  </dt>
-  <dd>
-    Seems like your cybernetics are putting quite the strain on your energy... you're feeling more hungry more often.
-  </dd>
-  <dt>
-    ERR: BAG_OF_RICE NEEDED (5 Cybernetics)
-  </dt>
-  <dd>
-    Seems like water doesn't agree with you anymore... might wanna stay away, unless you're drinking it (Potions are fine)
-  </dd>
-  <dt>
-    SYS_WARN: OVERHEAT_EXPLOSION (6 Cybernetics)
-  </dt>
-  <dd>
-    Seems like your cybernetics are now in danger of overheating... unrelated note, did you know they used to put water in cars as coolent. (Drink potions and water bottles to cool your cybernetics off. They do not cool off in cool biomes.)
-  </dd>
-  <dt>
-    ERR ERR ERR (7 Cybernetics)
-  </dt>
-  <dd>
-    What the actual f*ck is wrong with you. Unless you're on easy, you literally cant step in water now and you overheat increadibly easally
-  </dd>
-  <dt>
-    ERR_EFFICENCY_10% (8 Cybernetics)
-  </dt>
-  <dd>
-    Your hunger drains at an obsene rate now, you overheat stupidly easy, and water hurts even more. I dont know what to say, why would you do this.
-  </dd>
-  </dl>
+
