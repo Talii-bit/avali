@@ -16,7 +16,7 @@
 				}
 			]
 		},
-		"radius": 10,
+		"radius": 32,
 		"shape": "sphere",
 		"comparison": ">=",
 		"compare_to": 1
