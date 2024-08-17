@@ -14,17 +14,17 @@
                     "$%$"
                 ],
                 "key": {
-                    "$":{
+                    "$": {
                         "item": "minecraft:torch"
                     },
-                    "%":{
+                    "%": {
                         "item": "minecraft:copper_ingot"
                     },
-                    "^":{
+                    "^": {
                         "item": "minecraft:spyglass"
                     }
                 },
-                "result":{
+                "result": {
                     "item": "minecraft:knowledge_book"
                 }
             }
@@ -42,14 +42,44 @@
                     "$%$"
                 ],
                 "key": {
-                    "$":{
+                    "$": {
                         "item": "minecraft:glowstone"
+                    },
+                    "%": {
+                        "item": "minecraft:gold_ingot"
+                    },
+                    "^": {
+                        "item": "minecraft:ender_eye"
+                    }
+                },
+                "result": {
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        },
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Eye upgrade 3",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "g%$",
+                    "%^%",
+                    "$%g"
+                ],
+                "key": {
+                    "$":{
+                        "item": "minecraft:ender_eye"
                     },
                     "%":{
                         "item": "minecraft:gold_ingot"
                     },
                     "^":{
-                        "item": "minecraft:ender_eye"
+                        "item": "minecraft:netherite_ingot"
+                    },
+                    "g":{
+                        "item": "minecraft:glass"
                     }
                 },
                 "result":{
