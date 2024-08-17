@@ -45,36 +45,3 @@ execute if entity @s[advancements={avali:core2=true}] run power grant @s avali:c
 execute if entity @s[advancements={avali:core0=false}] run power remove @s origins:carnivore
 execute if entity @s[advancements={avali:core0=true}] run power grant @s origins:carnivore
 execute if entity @s[advancements={avali:core2=true}] run power remove @s origins:carnivore
-
-
-##Toomuch
-
-# uhoh 1
-execute if score @s cybernetics_amount matches 4 run power grant @s avali:cybernetics/too_many/uhoh1
-execute unless score @s cybernetics_amount matches 4 run power remove @s avali:cybernetics/too_many/uhoh1
-execute if score @s cybernetics_amount matches 4.. run advancement grant @s only avali:uhoh1
-execute unless score @s cybernetics_amount matches 4.. run advancement revoke @s only avali:uhoh1
-
-# uhoh 2
-execute if score @s cybernetics_amount matches 5 run power grant @s avali:cybernetics/too_many/uhoh2
-execute unless score @s cybernetics_amount matches 5 run power remove @s avali:cybernetics/too_many/uhoh2
-execute if score @s cybernetics_amount matches 5.. run advancement grant @s only avali:uhoh2
-execute unless score @s cybernetics_amount matches 5.. run advancement revoke @s only avali:uhoh2
-
-# uhoh 3
-execute if score @s cybernetics_amount matches 6 run power grant @s avali:cybernetics/too_many/uhoh3
-execute unless score @s cybernetics_amount matches 6 run power remove @s avali:cybernetics/too_many/uhoh3
-execute if score @s cybernetics_amount matches 6.. run advancement grant @s only avali:uhoh3
-execute unless score @s cybernetics_amount matches 6.. run advancement revoke @s only avali:uhoh3
-
-# uhoh 4
-execute if score @s cybernetics_amount matches 7 run power grant @s avali:cybernetics/too_many/uhoh4
-execute unless score @s cybernetics_amount matches 7 run power remove @s avali:cybernetics/too_many/uhoh4
-execute if score @s cybernetics_amount matches 7.. run advancement grant @s only avali:uhoh4
-execute unless score @s cybernetics_amount matches 7.. run advancement revoke @s only avali:uhoh4
-
-# uhoh 5
-execute if score @s cybernetics_amount matches 8 run power grant @s avali:cybernetics/too_many/uhoh5
-execute unless score @s cybernetics_amount matches 8 run power remove @s avali:cybernetics/too_many/uhoh5
-execute if score @s cybernetics_amount matches 8.. run advancement grant @s only avali:uhoh5
-execute unless score @s cybernetics_amount matches 8.. run advancement revoke @s only avali:uhoh5
