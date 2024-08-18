@@ -3,7 +3,7 @@
     "badges": [
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Legs upgrade 1",
+            "prefix": "Legs upgrade 1",
             "sprite": "origins:textures/gui/badge/info.png",
             "recipe": {
                 "id": "avali:eyes1",
@@ -31,7 +31,7 @@
         },
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Legs upgrade 2",
+            "prefix": "Legs upgrade 2",
             "sprite": "origins:textures/gui/badge/info.png",
             "recipe": {
                 "id": "avali:eyes2",
