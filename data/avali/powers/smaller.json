@@ -1,9 +1,5 @@
 {
     "type": "origins:multiple",
-    "size":{
-        "type": "extraorigins:modify_size",
-        "scale": 0.67
-    },
     "attribute":{
         "type": "origins:attribute",
         "modifiers": [
