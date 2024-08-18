@@ -3,8 +3,9 @@
     "badges": [
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Eye upgrade 1",
+            "prefix": "Eye upgrade 1",
             "sprite": "origins:textures/gui/badge/info.png",
+            "suffix": "This upgrade gives blurry CRT vision.",
             "recipe": {
                 "id": "avali:eyes1",
                 "type": "minecraft:crafting_shaped",
@@ -31,8 +32,9 @@
         },
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Eye upgrade 2",
+            "prefix": "Eye upgrade 2",
             "sprite": "origins:textures/gui/badge/info.png",
+            "suffix": "This upgrade gives non-blurry CRT vision.",
             "recipe": {
                 "id": "avali:eyes2",
                 "type": "minecraft:crafting_shaped",
@@ -59,9 +61,11 @@
         },
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Eye upgrade 3",
+            "prefix": "Eye upgrade 3",
             "sprite": "origins:textures/gui/badge/info.png",
+            "suffix": "This upgrade gives you completely normal vision.",
             "recipe": {
+                "id": "avali:eyes3",
                 "type": "minecraft:crafting_shaped",
                 "pattern": [
                     "g%$",
@@ -89,5 +93,5 @@
         }
     ],
     "name": "Ocular Cybernetics",
-    "description": "Ocular cybertics can be made to overcome your short sight!"
+    "description": "Ocular cybernetics can be made to overcome your short sight!"
 }
