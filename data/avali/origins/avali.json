@@ -20,7 +20,8 @@
         "avali:recipes",
         "avali:legs",
         "avali:corer",
-        "avali:wings"
+        "avali:wings",
+        "avali:flap"
     ],
     "unchoosable": false  
 }
