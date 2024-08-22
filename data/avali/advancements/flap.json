@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": "Flapping Modification",
+        "description": {
+            "text": "Allows you to flap in earth gravity like a real bird!"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "avali:wings0",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

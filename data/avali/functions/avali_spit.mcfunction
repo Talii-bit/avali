@@ -5,6 +5,7 @@ execute if entity @s[advancements={avali:eyes2=true, avali:fuckin_hell/eyes2=tru
 execute if entity @s[advancements={avali:eyes3=true, avali:fuckin_hell/eyes3=true}] run function avali:return_policy/eyes3
 execute if entity @s[advancements={avali:wings1=true, avali:fuckin_hell/wings1=true}] run function avali:return_policy/wings1
 execute if entity @s[advancements={avali:wings2=true, avali:fuckin_hell/wings2=true}] run function avali:return_policy/wings2
+execute if entity @s[advancements={avali:flap=true, avali:fuckin_hell/flap=true}] run function avali:return_policy/flap
 execute if entity @s[advancements={avali:legs1=true, avali:fuckin_hell/legs1=true}] run function avali:return_policy/legs1
 execute if entity @s[advancements={avali:legs2=true, avali:fuckin_hell/legs2=true}] run function avali:return_policy/legs2
 
@@ -22,6 +23,8 @@ execute if entity @s[advancements={avali:fuckin_hell/wings1=true}] run advanceme
 execute if predicate avali:has_ability if entity @s[advancements={avali:fuckin_hell/wings1=true}] run power grant @s avali:cybernetics/abilitys/wings1
 execute if predicate avali:has_ability if entity @s[advancements={avali:fuckin_hell/wings1=true}] run power remove @s avali:cybernetics/abilitys/no_ability
 execute if entity @s[advancements={avali:fuckin_hell/wings2=true, avali:wings1=true}] run advancement grant @s only avali:wings2
+execute if predicate avali:has_ability if entity @s[advancements={avali:fuckin_hell/flap=true}] run power grant @s avali:cybernetics/abilitys/flap
+execute if entity @s[advancements={avali:fuckin_hell/flap=true}] run advancement grant @s only avali:flap
 execute if entity @s[advancements={avali:fuckin_hell/legs1=true}] run advancement grant @s only avali:legs1
 execute if predicate avali:has_ability if entity @s[advancements={avali:fuckin_hell/legs1=true}] run power grant @s avali:cybernetics/abilitys/legs1
 execute if predicate avali:has_ability if entity @s[advancements={avali:fuckin_hell/legs1=true}] run power remove @s avali:cybernetics/abilitys/no_ability

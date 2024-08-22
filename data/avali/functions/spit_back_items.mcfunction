@@ -5,6 +5,7 @@ execute if entity @s[advancements={avali:fuckin_hell/eyes2=true}] run function a
 execute if entity @s[advancements={avali:fuckin_hell/eyes3=true}] run function avali:return_policy/eyes3
 execute if entity @s[advancements={avali:fuckin_hell/wings1=true}] run function avali:return_policy/wings1
 execute if entity @s[advancements={avali:fuckin_hell/wings2=true}] run function avali:return_policy/wings2
+execute if entity @s[advancements={avali:fuckin_hell/flap=true}] run function avali:return_policy/flap
 execute if entity @s[advancements={avali:fuckin_hell/legs1=true}] run function avali:return_policy/legs1
 execute if entity @s[advancements={avali:fuckin_hell/legs2=true}] run function avali:return_policy/legs2
 function avali:give_abilitys/remove_abilitys

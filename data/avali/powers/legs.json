@@ -30,7 +30,7 @@
             }
         },
         {
-            "type": "origins:crafting_recipe",
+            "typeDISABLED": "origins:crafting_recipe",
             "prefix": "Legs upgrade 2",
             "sprite": "origins:textures/gui/badge/info.png",
             "recipe": {
