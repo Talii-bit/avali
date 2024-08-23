@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": "Flapping Modification",
+        "description": "Allows you to flap in earth gravity like a real bird!",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "avali:fuckin_hell/root",
+    "criteria": {
+        "reqirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "avali:flap"
+            }
+        }
+    },
+    "rewards": {
+        "function": "avali:clear_book"
+    }
+}

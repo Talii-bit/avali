@@ -6,6 +6,7 @@ execute if entity @s[advancements={avali:core1=true}] run scoreboard players add
 execute if entity @s[advancements={avali:core2=true}] run scoreboard players add @s cybernetics_amount 1
 execute if entity @s[advancements={avali:wings1=true}] run scoreboard players add @s cybernetics_amount 1
 execute if entity @s[advancements={avali:wings2=true}] run scoreboard players add @s cybernetics_amount 1
+execute if entity @s[advancements={avali:flap=true}] run scoreboard players add @s cybernetics_amount 1
 execute if entity @s[advancements={avali:legs1=true}] run scoreboard players add @s cybernetics_amount 1
 execute if entity @s[advancements={avali:legs2=true}] run scoreboard players add @s cybernetics_amount 1
 

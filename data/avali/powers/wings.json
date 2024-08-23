@@ -3,7 +3,7 @@
     "badges": [
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Wings upgrade 1",
+            "prefix": "Wings upgrade 1",
             "sprite": "origins:textures/gui/badge/info.png",
             "recipe": {
                 "id": "avali:eyes1",
@@ -14,24 +14,24 @@
                     "% %"
                 ],
                 "key": {
-                    "#":{
+                    "#": {
                         "item": "minecraft:redstone_torch"
                     },
-                    "$":{
+                    "$": {
                         "item": "minecraft:lightning_rod"
                     },
-                    "%":{
+                    "%": {
                         "item": "minecraft:hopper"
                     }
                 },
-                "result":{
+                "result": {
                     "item": "minecraft:knowledge_book"
                 }
             }
         },
         {
             "type": "origins:crafting_recipe",
-            "suffix": "Wings upgrade 2",
+            "prefix": "Wings upgrade 2",
             "sprite": "origins:textures/gui/badge/info.png",
             "recipe": {
                 "id": "avali:eyes2",
@@ -42,20 +42,55 @@
                     "% %"
                 ],
                 "key": {
-                    "#":{
+                    "#": {
                         "item": "minecraft:crossbow"
                     },
-                    "$":{
+                    "$": {
                         "item": "minecraft:echo_shard"
                     },
-                    "%":{
+                    "%": {
                         "item": "minecraft:tnt"
                     },
-                    "&":{
+                    "&": {
                         "item": "minecraft:fire_charge"
                     }
                 },
-                "result":{
+                "result": {
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        },
+        {
+            "type": "origins:crafting_recipe",
+            "prefix": "Flapping",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "suffix": "Allows you to flap while gliding using your jump key!",
+            "recipe": {
+                "id": "avali:flap",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "EDE",
+                    "FNF",
+                    "F#F"
+                ],
+                "key": {
+                    "D": {
+                        "item": "minecraft:daylight_detector"
+                    },
+                    "E": {
+                        "item": "minecraft:echo_shard"
+                    },
+                    "F": {
+                        "item": "minecraft:feather"
+                    },
+                    "N": {
+                        "item": "minecraft:netherite_ingot"
+                    },
+                    "#": {
+                        "item": "minecraft:nether_star"
+                    }
+                },
+                "result": {
                     "item": "minecraft:knowledge_book"
                 }
             }

@@ -8,6 +8,7 @@ recipe take @s avali:core1
 recipe take @s avali:core2
 recipe take @s avali:wings1
 recipe take @s avali:wings2
+recipe take @s avali:flap
 recipe take @s avali:legs1
 recipe take @s avali:legs2
 advancement revoke @s through avali:fuckin_hell/root

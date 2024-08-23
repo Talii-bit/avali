@@ -9,7 +9,7 @@
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "avali:legs1",
+    "parent": "avali:legs1DISABLED",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:impossible"
