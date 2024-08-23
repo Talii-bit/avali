@@ -1,14 +1,14 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "item": "minecraft:firework_rocket"
         },
         "title": "Flapping Modification",
         "description": {
             "text": "Allows you to flap in earth gravity like a real bird!"
         },
         "frame": "challenge",
-        "show_toast": true,
+        "show_toast": false,
         "announce_to_chat": false
     },
     "parent": "avali:wings0",
