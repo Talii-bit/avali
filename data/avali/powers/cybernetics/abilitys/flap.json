@@ -1,10 +1,19 @@
 {
 	"type": "origins:active_self",
 	"entity_action": {
-		"type": "origins:add_velocity",
-		"space": "local",
-		"z": 0.4,
-		"y": 0.4
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:add_velocity",
+			"space": "local",
+			"z": 0.4,
+			"y": 0.4
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "execute as @a run playsound minecraft:entity.phantom.flap player @s ~ ~ ~ 1 2 0"
+		}
+		]
 	},
 	"key": "key.jump",
 	"hud_render": {
