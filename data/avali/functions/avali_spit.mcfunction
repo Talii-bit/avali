@@ -23,7 +23,7 @@ execute if entity @s[advancements={avali:fuckin_hell/wings1=true}] run advanceme
 execute if predicate avali:has_ability if entity @s[advancements={avali:fuckin_hell/wings1=true}] run power grant @s avali:cybernetics/abilitys/wings1
 execute if predicate avali:has_ability if entity @s[advancements={avali:fuckin_hell/wings1=true}] run power remove @s avali:cybernetics/abilitys/no_ability
 execute if entity @s[advancements={avali:fuckin_hell/wings2=true, avali:wings1=true}] run advancement grant @s only avali:wings2
-execute if predicate avali:has_ability if entity @s[advancements={avali:fuckin_hell/flap=true}] run power grant @s avali:cybernetics/abilitys/flap
+execute if entity @s[advancements={avali:fuckin_hell/flap=true}] run power grant @s avali:cybernetics/abilitys/flap
 execute if entity @s[advancements={avali:fuckin_hell/flap=true}] run advancement grant @s only avali:flap
 execute if entity @s[advancements={avali:fuckin_hell/legs1=true}] run advancement grant @s only avali:legs1
 execute if predicate avali:has_ability if entity @s[advancements={avali:fuckin_hell/legs1=true}] run power grant @s avali:cybernetics/abilitys/legs1
