@@ -9,12 +9,6 @@
             "type": "origins:raycast",
             "distance": 16,
             "command_at_hit": "execute if entity @p[distance=..2] at @p run function avali:ask_join"
-        },
-        "condition": {
-            "type": "origins:scoreboard",
-            "objective": "avali_pack_member_counter",
-            "compare_to": 6,
-            "comparison": "<"
         }
     },
     "pack_near":{
