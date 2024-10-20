@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
         "title": "Basic avali arms",
         "description": "Average Avali arms. Basic gliding is all these things allow, but cybernetics could make them better...",

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:piston"
+            "id": "minecraft:piston"
         },
         "title": "Leg-up V2 3000HP Upanatem",
         "description": "These bad boys can boost you up into the air, allowing you to have a good boost in gliding! It's not flying, but it'll have to do.",

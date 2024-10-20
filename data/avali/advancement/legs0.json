@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:disc_fragment_5"
+            "id": "minecraft:leather_boots"
         },
-        "title": "Basic avali eyes",
-        "description": "You can barely see with these things! You need to get your claws on some eye enhancements.",
+        "title": "Basic avali legs",
+        "description": "Pitter patter pitter patter, these legs'll get you places! They could go farther if you gave 'em some juice though...",
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false

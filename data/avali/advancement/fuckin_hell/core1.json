@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:glass"
+            "id": "minecraft:amethyst_block"
         },
-        "title": "Illuminate Optical Implants",
-        "description": "Perfect vision",
+        "title": "AvalonWerks 2000 8V Cooler",
+        "description": "Now that you have some basic internal cybernetics, you can resist higher tempatures! You still can't eat veggies, though...",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
@@ -14,7 +14,7 @@
         "reqirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "avali:eyes3"
+                "recipe": "avali:core1"
             }
         }
     },

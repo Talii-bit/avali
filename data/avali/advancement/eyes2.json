@@ -1,15 +1,15 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:torch"
+            "id": "minecraft:music_disc_5"
         },
-        "title": "Dumpsterali 2V Optical Implants 2000",
-        "description": "They're not the best, but they get the job done.",
+        "title": "Wargone 9100 8V Anti-Darkness optical implants",
+        "description": "Top of the notch sight, doesn't get any better than this! <- lie",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "avali:eyes0",
+    "parent": "avali:eyes1",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:impossible"

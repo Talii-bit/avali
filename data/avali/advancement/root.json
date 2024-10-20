@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:recovery_compass"
+            "id": "minecraft:recovery_compass"
         },
         "title": "Avali Upgrades",
         "description": "A basic Avali, not fit for this world... yet. Create mechanical upgrades for yourself, become a creature fit for the world you have been placed in.",

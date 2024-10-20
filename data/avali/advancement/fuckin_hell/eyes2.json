@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:lantern"
+            "id": "minecraft:lantern"
         },
         "title": "Wargone 9100 8V Anti-Darkness optical implants",
         "description": "Top of the notch sight, doesn't get any better than this!",
@@ -14,7 +14,7 @@
         "reqirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "avali:legs1"
+                "recipe": "avali:eyes2"
             }
         }
     },

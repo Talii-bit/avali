@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:lantern"
+            "id": "minecraft:torch"
         },
-        "title": "Wargone 9100 8V Anti-Darkness optical implants",
-        "description": "Top of the notch sight, doesn't get any better than this!",
+        "title": "Dumpsterali 2V Optical Implants 2000",
+        "description": "They're not the best, but they get the job done.",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
@@ -14,7 +14,7 @@
         "reqirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "avali:eyes2"
+                "recipe": "avali:eyes1"
             }
         }
     },

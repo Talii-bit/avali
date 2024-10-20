@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:piston"
+            "id": "minecraft:glass"
         },
-        "title": "PistonWerks V4 2000 Arm Boosters: Avali edition",
-        "description": "With piston-powered arms, you can give yourself a nice boost into the air! Just remember to spread your wings once in the air...",
+        "title": "Illuminate Optical Implants",
+        "description": "Perfect vision",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
@@ -14,7 +14,7 @@
         "reqirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "avali:wings1"
+                "recipe": "avali:eyes3"
             }
         }
     },

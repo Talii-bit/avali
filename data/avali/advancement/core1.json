@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:amethyst_block"
+            "id": "minecraft:amethyst_block"
         },
         "title": "AvalonWerks 2000 8V Cooler",
         "description": "Now that you have some basic internal cybernetics, you can resist higher tempatures! You still can't eat veggies, though...",

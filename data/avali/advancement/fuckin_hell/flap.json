@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:amethyst_block"
+            "id": "minecraft:elytra"
         },
-        "title": "AvalonWerks 2000 8V Cooler",
-        "description": "Now that you have some basic internal cybernetics, you can resist higher tempatures! You still can't eat veggies, though...",
+        "title": "Flapping Modification",
+        "description": "Allows you to flap in earth gravity like a real bird!",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
@@ -14,7 +14,7 @@
         "reqirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "avali:core1"
+                "recipe": "avali:flap"
             }
         }
     },
