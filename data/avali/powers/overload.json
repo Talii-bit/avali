@@ -67,13 +67,6 @@
         },
         "interval": 10
     },
-    "toggle_mode":{
-        "type": "origins:toggle",
-        "key":{
-            "key": "FSDFSGDERGDFBVFDV"
-        },
-        "active_by_default": false
-    },
     "badges": [
         
     ]
