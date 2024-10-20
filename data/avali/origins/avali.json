@@ -2,7 +2,7 @@
     "name": "Avali",
     "description": "Please note that Avalis where originaly made by RyuujinZERO, I just made an origin based off them. Small sentient raptor-like creatures whome rely on their packs to keep eachother sane, and their 2 pairs ears to make up for poor eyesight. Create Cybernetics to enhance yourself, and overcome your shortcomings!",
     "icon":{
-        "item": "minecraft:recovery_compass"
+        "id": "minecraft:recovery_compass"
     },
     "impact": 3,
     "order": 0,

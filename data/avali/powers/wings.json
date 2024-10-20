@@ -25,7 +25,7 @@
                     }
                 },
                 "result": {
-                    "item": "minecraft:knowledge_book"
+                    "id": "minecraft:knowledge_book"
                 }
             }
         },
@@ -56,7 +56,7 @@
                     }
                 },
                 "result": {
-                    "item": "minecraft:knowledge_book"
+                    "id": "minecraft:knowledge_book"
                 }
             }
         },
@@ -91,7 +91,7 @@
                     }
                 },
                 "result": {
-                    "item": "minecraft:knowledge_book"
+                    "id": "minecraft:knowledge_book"
                 }
             }
         }

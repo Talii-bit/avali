@@ -23,19 +23,22 @@
 	},
     "modifiers": [
         {
+			"id": "jukebox-attack-damage",
             "attribute": "minecraft:generic.attack_damage",
-            "operation":"multiply_total",
-            "value": 0.5
+            "operation":"ADD_MULTIPLIED_TOTAL",
+			"amount": 0.5
         },
         {
+			"id": "jukebox-speed",
             "attribute": "minecraft:generic.movement_speed",
-            "operation":"multiply_total",
-            "value": 0.1
+            "operation":"ADD_MULTIPLIED_TOTAL",
+            "amount": 0.1
         },
         {
-            "attribute": "additionalentityattributes:dig_speed",
-            "operation":"multiply_total",
-            "value": 1
+			"id": "jukebox-dig-speed",
+            "attribute": "minecraft:player.block_break_speed",
+            "operation":"ADD_MULTIPLIED_TOTAL",
+            "amount": 1
         }
     ],
 	"name": "Musical",

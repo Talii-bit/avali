@@ -29,6 +29,7 @@
                     "bientity_action": {
                         "type": "origins:damage",
                         "amount": 8,
+                        "damage_type": "player_attack",
                         "source": {
                             "name": "onFire.player",
                             "bypasses_armor": true,

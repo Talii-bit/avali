@@ -2,19 +2,22 @@
     "type": "origins:attribute",
     "modifiers": [
         {
+            "id": "pack-loss-max-health",
             "attribute": "minecraft:generic.max_health",
-            "operation": "multiply_total",
-            "value": -0.3
+            "operation": "ADD_MULTIPLIED_TOTAL",
+            "amount": -0.3
         },
         {
+            "id": "pack-loss-attack-damage",
             "attribute": "minecraft:generic.attack_damage",
-            "operation":"multiply_total",
-            "value": -0.3
+            "operation":"ADD_MULTIPLIED_TOTAL",
+            "amount": -0.3
         },
         {
+            "id": "pack-loss-movement-speed",
             "attribute": "minecraft:generic.movement_speed",
-            "operation":"multiply_total",
-            "value": -0.3
+            "operation":"ADD_MULTIPLIED_TOTAL",
+            "amount": -0.3
         }
     ]
 }

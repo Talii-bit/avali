@@ -21,19 +21,22 @@
         },
         "modifiers": [
             {
+                "id": "pack-near-max-health",
                 "attribute": "minecraft:generic.max_health",
-                "operation": "multiply_total",
-                "value": 1
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 1
             },
             {
+                "id": "pack-near-attack-damage",
                 "attribute": "minecraft:generic.attack_damage",
-                "operation":"multiply_total",
-                "value": 0.3
+                "operation":"ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
             },
             {
+                "id": "pack-near-speed",
                 "attribute": "minecraft:generic.movement_speed",
-                "operation":"multiply_total",
-                "value": 0.1
+                "operation":"ADD_MULTIPLIED_TOTAL",
+                "amount": 0.1
             }
         ]
     },
@@ -47,19 +50,22 @@
         },
         "modifiers": [
             {
+                "id": "pack-not-enough-max-health",
                 "attribute": "minecraft:generic.max_health",
-                "operation": "multiply_total",
-                "value": -0.2
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": -0.2
             },
             {
+                "id": "pack-not-enough-attack-damge",
                 "attribute": "minecraft:generic.attack_damage",
-                "operation":"multiply_total",
-                "value": -0.2
+                "operation":"ADD_MULTIPLIED_TOTAL",
+                "amount": -0.2
             },
             {
+                "id": "pack-not-enough-speed",
                 "attribute": "minecraft:generic.movement_speed",
-                "operation":"multiply_total",
-                "value": -0.2
+                "operation":"ADD_MULTIPLIED_TOTAL",
+                "amount": -0.2
             }
         ]
     },

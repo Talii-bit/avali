@@ -82,19 +82,22 @@
         "type": "origins:attribute",
         "modifiers": [
             {
+                "id": "very-sad-max-health",
                 "attribute": "minecraft:generic.max_health",
-                "operation": "multiply_total",
-                "value": -0.1
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": -0.1
             },
             {
+                "id": "very-sad-attack-damage",
                 "attribute": "minecraft:generic.attack_damage",
-                "operation":"multiply_total",
-                "value": -0.1
+                "operation":"ADD_MULTIPLIED_TOTAL",
+                "amount": -0.1
             },
             {
+                "id": "very-sad-movement-speed",
                 "attribute": "minecraft:generic.movement_speed",
-                "operation":"multiply_total",
-                "value": -0.1
+                "operation":"ADD_MULTIPLIED_TOTAL",
+                "amount": -0.1
             }
         ]
     }

@@ -13,19 +13,22 @@
         "type": "origins:attribute",
         "modifiers": [
             {
+                "id":"core2-armor",
                 "attribute": "minecraft:generic.armor",
-                "operation":"addition",
-                "value": 8
+                "operation":"ADD_VALUE",
+                "amount": 8
             },
             {
+                "id":"core2-toughness",
                 "attribute": "minecraft:generic.armor_toughness",
-                "operation":"addition",
-                "value": 12
+                "operation":"ADD_VALUE",
+                "amount": 12
             },
             {
+                "id":"core2-knockback-resistance",
                 "attribute": "minecraft:generic.knockback_resistance",
-                "operation":"addition",
-                "value": 4
+                "operation":"ADD_VALUE",
+                "amount": 4
             }
         ]
     }

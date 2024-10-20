@@ -4,19 +4,22 @@
         "type": "origins:attribute",
         "modifiers": [
             {
+                "id": "smaller-max-health",
                 "attribute": "minecraft:generic.max_health",
-                "operation": "multiply_base",
-                "value": -0.5
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": -0.5
             },
             {
+                "id": "smaller-attack-damage",
                 "attribute": "minecraft:generic.attack_damage",
-                "operation":"multiply_base",
-                "value": -0.2
+                "operation":"ADD_MULTIPLIED_BASE",
+                "amount": -0.2
             },
             {
+                "id": "smaller-movement-speed",
                 "attribute": "minecraft:generic.movement_speed",
-                "operation":"multiply_base",
-                "value": 0.2
+                "operation":"ADD_MULTIPLIED_BASE",
+                "amount": 0.2
             }
         ]
     },
