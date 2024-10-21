@@ -37,7 +37,7 @@
             "command": "power remove @s avali:glowing"
         }
     },
-    "activte_power": {
+    "activate_power": {
         "type": "origins:action_over_time",
         "condition": {
             "type": "origins:and",
