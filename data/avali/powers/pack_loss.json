@@ -4,19 +4,19 @@
         {
             "id": "pack-loss-max-health",
             "attribute": "minecraft:generic.max_health",
-            "operation": "ADD_MULTIPLIED_TOTAL",
+            "operation": "add_multiplied_total",
             "amount": -0.3
         },
         {
             "id": "pack-loss-attack-damage",
             "attribute": "minecraft:generic.attack_damage",
-            "operation":"ADD_MULTIPLIED_TOTAL",
+            "operation":"add_multiplied_total",
             "amount": -0.3
         },
         {
             "id": "pack-loss-movement-speed",
             "attribute": "minecraft:generic.movement_speed",
-            "operation":"ADD_MULTIPLIED_TOTAL",
+            "operation":"add_multiplied_total",
             "amount": -0.3
         }
     ]

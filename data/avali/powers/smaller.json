@@ -6,19 +6,19 @@
             {
                 "id": "smaller-max-health",
                 "attribute": "minecraft:generic.max_health",
-                "operation": "ADD_MULTIPLIED_BASE",
+                "operation": "add_multiplied_base",
                 "amount": -0.5
             },
             {
                 "id": "smaller-attack-damage",
                 "attribute": "minecraft:generic.attack_damage",
-                "operation":"ADD_MULTIPLIED_BASE",
+                "operation":"add_multiplied_base",
                 "amount": -0.2
             },
             {
                 "id": "smaller-movement-speed",
                 "attribute": "minecraft:generic.movement_speed",
-                "operation":"ADD_MULTIPLIED_BASE",
+                "operation":"add_multiplied_base",
                 "amount": 0.2
             }
         ]
