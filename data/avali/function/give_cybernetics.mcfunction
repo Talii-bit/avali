@@ -27,7 +27,6 @@ execute if entity @s[advancements={avali:eyes2=false}] run power remove @s avali
 execute if entity @s[advancements={avali:eyes2=true}] run power grant @s avali:cybernetics/tier2/eyes
 execute if entity @s[advancements={avali:eyes3=true}] run power remove @s avali:cybernetics/tier2/eyes
 
-
 # eyes 3
 execute if entity @s[advancements={avali:eyes3=false}] run power remove @s avali:cybernetics/tier3/eyes
 execute if entity @s[advancements={avali:eyes3=true}] run power grant @s avali:cybernetics/tier3/eyes
@@ -52,3 +51,20 @@ execute if entity @s[advancements={avali:core2=true}] run power grant @s avali:c
 execute if entity @s[advancements={avali:core0=false}] run power remove @s origins:carnivore
 execute if entity @s[advancements={avali:core0=true}] run power grant @s origins:carnivore
 execute if entity @s[advancements={avali:core2=true}] run power remove @s origins:carnivore
+
+# wings
+execute if entity @s[advancements={avali:wings1=false}] run power remove @s avali:cybernetics/abilitys/wings1
+execute if entity @s[advancements={avali:wings1=true}] run power grant @s avali:cybernetics/abilitys/wings1
+
+execute if entity @s[advancements={avali:wings2=false}] run power remove @s avali:cybernetics/abilitys/wings2
+execute if entity @s[advancements={avali:wings2=true}] run power grant @s avali:cybernetics/abilitys/wings2
+
+execute if entity @s[advancements={avali:flap=false}] run power remove @s avali:cybernetics/abilitys/flap
+execute if entity @s[advancements={avali:flap=true}] run power grant @s avali:cybernetics/abilitys/flap
+
+# legs
+execute if entity @s[advancements={avali:legs1=false}] run power remove @s avali:cybernetics/abilitys/legs1
+execute if entity @s[advancements={avali:legs1=true}] run power grant @s avali:cybernetics/abilitys/legs1
+
+execute if entity @s[advancements={avali:legs2=false}] run power remove @s avali:cybernetics/abilitys/legs2
+execute if entity @s[advancements={avali:legs2=true}] run power grant @s avali:cybernetics/abilitys/legs2

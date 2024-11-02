@@ -67,7 +67,11 @@
         },
         "interval": 10
     },
-    "badges": [
-        
-    ]
+    "toggle_mode":{
+        "type": "origins:toggle",
+        "key":{
+            "key": "Invalid"
+        },
+        "active_by_default": false
+    }
 }
