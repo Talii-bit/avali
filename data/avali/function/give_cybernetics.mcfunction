@@ -41,7 +41,6 @@ execute if entity @s[advancements={avali:core1=true}] run power remove @s avali:
 # core 1
 execute if entity @s[advancements={avali:core1=false}] run power remove @s avali:cybernetics/tier1/core
 execute if entity @s[advancements={avali:core1=true}] run power grant @s avali:cybernetics/tier1/core
-execute if entity @s[advancements={avali:core2=true}] run power remove @s avali:cybernetics/tier1/core
 
 # core 2
 execute if entity @s[advancements={avali:core2=false}] run power remove @s avali:cybernetics/tier2/core
