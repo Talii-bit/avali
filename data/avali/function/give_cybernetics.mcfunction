@@ -8,7 +8,7 @@ execute if entity @s[advancements={avali:wings1=true}] run scoreboard players ad
 execute if entity @s[advancements={avali:wings2=true}] run scoreboard players add @s cybernetics_amount 1
 execute if entity @s[advancements={avali:flap=true}] run scoreboard players add @s cybernetics_amount 1
 execute if entity @s[advancements={avali:legs1=true}] run scoreboard players add @s cybernetics_amount 1
-#execute if entity @s[advancements={avali:legs2=true}] run scoreboard players add @s cybernetics_amount 1
+# execute if entity @s[advancements={avali:legs2=true}] run scoreboard players add @s cybernetics_amount 1
 
 
 ##Eyes
@@ -66,5 +66,5 @@ execute if entity @s[advancements={avali:flap=true}] run power grant @s avali:cy
 execute if entity @s[advancements={avali:legs1=false}] run power remove @s avali:cybernetics/abilitys/legs1
 execute if entity @s[advancements={avali:legs1=true}] run power grant @s avali:cybernetics/abilitys/legs1
 
-#execute if entity @s[advancements={avali:legs2=false}] run power remove @s avali:cybernetics/abilitys/legs2
-#execute if entity @s[advancements={avali:legs2=true}] run power grant @s avali:cybernetics/abilitys/legs2
+# execute if entity @s[advancements={avali:legs2=false}] run power remove @s avali:cybernetics/abilitys/legs2
+# execute if entity @s[advancements={avali:legs2=true}] run power grant @s avali:cybernetics/abilitys/legs2
