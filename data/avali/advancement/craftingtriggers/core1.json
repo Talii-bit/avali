@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:lantern"
+            "id": "minecraft:amethyst_block"
         },
-        "title": "Wargone 9100 8V Anti-Darkness optical implants",
-        "description": "Top of the notch sight, doesn't get any better than this!",
+        "title": "AvalonWerks 2000 8V Cooler",
+        "description": "Now that you have some basic internal cybernetics, you can resist higher tempatures! You still can't eat veggies, though...",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "avali:fuckin_hell/root",
+    "parent": "avali:craftingtriggers/root",
     "criteria": {
         "reqirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "avali:legs1"
+                "recipe": "avali:core1"
             }
         }
     },
