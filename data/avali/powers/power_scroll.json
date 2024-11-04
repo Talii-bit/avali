@@ -74,14 +74,6 @@
                                         "type": "origins:advancement",
                                         "advancement": "avali:wings1",
                                         "inverted": true
-                                    },
-                                    {
-                                        "type": "origins:advancement",
-                                        "advancement": "avali:legs2"
-                                    },
-                                    {
-                                        "type": "origins:power",
-                                        "power": "avali:cybernetics/abilitys/legs2"
                                     }
                                 ]
                             },
@@ -103,39 +95,11 @@
                                         "inverted": true
                                     },
                                     {
-                                        "type": "origins:advancement",
-                                        "advancement": "avali:legs2",
-                                        "inverted": true
-                                    },
-                                    {
                                         "type": "origins:power",
                                         "power": "avali:cybernetics/abilitys/legs1",
                                         "inverted": true
                                     }
                                 ]
-                            }
-                        ]
-                    }
-                },
-                {
-                    "action": {
-                        "type": "origins:execute_command",
-                        "command": "function avali:give_abilitys/legs2"
-                    },
-                    "condition": {
-                        "type": "origins:and",
-                        "conditions": [
-                            {
-                                "type": "origins:advancement",
-                                "advancement": "avali:legs1"
-                            },
-                            {
-                                "type": "origins:advancement",
-                                "advancement": "avali:legs2"
-                            },
-                            {
-                                "type": "origins:power",
-                                "power": "avali:cybernetics/abilitys/legs1"
                             }
                         ]
                     }
@@ -155,26 +119,13 @@
                                 "conditions": [
                                     {
                                         "type": "origins:advancement",
-                                        "advancement": "avali:legs2"
-                                    },
-                                    {
-                                        "type": "origins:advancement",
                                         "advancement": "avali:wings1"
-                                    },
-                                    {
-                                        "type": "origins:power",
-                                        "power": "avali:cybernetics/abilitys/legs2"
                                     }
                                 ]
                             },
                             {
                                 "type": "origins:and",
                                 "conditions": [
-                                    {
-                                        "type": "origins:advancement",
-                                        "advancement": "avali:legs2",
-                                        "inverted": true
-                                    },
                                     {
                                         "type": "origins:advancement",
                                         "advancement": "avali:wings1"
@@ -192,11 +143,6 @@
                             {
                                 "type": "origins:and",
                                 "conditions": [
-                                    {
-                                        "type": "origins:advancement",
-                                        "advancement": "avali:legs2",
-                                        "inverted": true
-                                    },
                                     {
                                         "type": "origins:advancement",
                                         "advancement": "avali:wings1"
@@ -219,11 +165,6 @@
                             {
                                 "type": "origins:and",
                                 "conditions": [
-                                    {
-                                        "type": "origins:advancement",
-                                        "advancement": "avali:legs2",
-                                        "inverted": true
-                                    },
                                     {
                                         "type": "origins:advancement",
                                         "advancement": "avali:wings1"
