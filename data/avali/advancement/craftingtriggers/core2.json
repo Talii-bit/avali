@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:piston"
+            "id": "minecraft:echo_shard"
         },
-        "title": "PistonWerks V4 2000 Arm Boosters: Avali edition",
-        "description": "With piston-powered arms, you can give yourself a nice boost into the air! Just remember to spread your wings once in the air...",
+        "title": "Vegalon Technologys 8000 12V Vegie Digest Advanced cooling system",
+        "description": "Now you have no need to worry about the hot! Not only that, you're able to digest your veggies! would you look at that!",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "avali:fuckin_hell/root",
+    "parent": "avali:craftingtriggers/root",
     "criteria": {
         "reqirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "avali:wings1"
+                "recipe": "avali:core2"
             }
         }
     },

@@ -28,34 +28,6 @@
                     "id": "minecraft:knowledge_book"
                 }
             }
-        },
-        {
-            "typeDISABLED": "origins:crafting_recipe",
-            "prefix": "Legs upgrade 2",
-            "sprite": "origins:textures/gui/badge/info.png",
-            "recipe": {
-                "id": "avali:eyes2",
-                "type": "minecraft:crafting_shaped",
-                "pattern": [
-                    "# #",
-                    "$ $",
-                    "% %"
-                ],
-                "key": {
-                    "#":{
-                        "item": "minecraft:phantom_membrane"
-                    },
-                    "$":{
-                        "item": "minecraft:echo_shard"
-                    },
-                    "%":{
-                        "item": "minecraft:ender_pearl"
-                    }
-                },
-                "result":{
-                    "id": "minecraft:knowledge_book"
-                }
-            }
         }
     ],
     "name": "Leg Cybernetics",

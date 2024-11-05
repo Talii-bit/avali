@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:amethyst_block"
+            "id": "minecraft:torch"
         },
-        "title": "AvalonWerks 2000 8V Cooler",
-        "description": "Now that you have some basic internal cybernetics, you can resist higher tempatures! You still can't eat veggies, though...",
+        "title": "Dumpsterali 2V Optical Implants 2000",
+        "description": "They're not the best, but they get the job done.",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "avali:fuckin_hell/root",
+    "parent": "avali:craftingtriggers/root",
     "criteria": {
         "reqirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "avali:core1"
+                "recipe": "avali:eyes1"
             }
         }
     },

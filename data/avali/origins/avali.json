@@ -12,15 +12,15 @@
         "avali:packs_non_avali",
         "avali:smaller",
         "avali:heat_bar",
-        "avali:holy_shit_i_love_tunes",
+        "avali:jukebox_buff",
         "avali:night_vision",
         "avali:glide",
         "avali:power_scroll",
         "avali:overload",
-        "avali:recipes",
-        "avali:legs",
-        "avali:corer",
-        "avali:wings"
+        "avali:leg_badges",
+        "avali:core_badges",
+        "avali:eye_badges",
+        "avali:wing_badges"
     ],
     "unchoosable": false  
 }

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:elytra"
+            "id": "minecraft:lantern"
         },
-        "title": "Flapping Modification",
-        "description": "Allows you to flap in earth gravity like a real bird!",
+        "title": "Wargone 9100 8V Anti-Darkness optical implants",
+        "description": "Top of the notch sight, doesn't get any better than this!",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "avali:fuckin_hell/root",
+    "parent": "avali:craftingtriggers/root",
     "criteria": {
         "reqirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "avali:flap"
+                "recipe": "avali:legs1"
             }
         }
     },

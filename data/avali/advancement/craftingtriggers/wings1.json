@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:lantern"
+            "id": "minecraft:piston"
         },
-        "title": "Wargone 9100 8V Anti-Darkness optical implants",
-        "description": "Top of the notch sight, doesn't get any better than this!",
+        "title": "PistonWerks V4 2000 Arm Boosters: Avali edition",
+        "description": "With piston-powered arms, you can give yourself a nice boost into the air! Just remember to spread your wings once in the air...",
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "avali:fuckin_hell/root",
+    "parent": "avali:craftingtriggers/root",
     "criteria": {
         "reqirement": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "avali:legs2"
+                "recipe": "avali:wings1"
             }
         }
     },
